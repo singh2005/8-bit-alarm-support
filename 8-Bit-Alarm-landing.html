@@ -1,121 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MyHAC Companion</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8-Bit Alarm - Level Up Your Mornings</title>
     <style>
-      body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-        max-width: 700px;
-        margin: 40px auto;
-        padding: 0 20px;
-        text-align: center;
-        color: #2c3e50;
-        background-color: #ffffff;
-      }
-      img.app-icon {
-        width: 120px;
-        height: 120px;
-        border-radius: 22%;
-        margin-bottom: 20px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-      }
-      h1 {
-        font-size: 1.9em;
-        margin-bottom: 10px;
-      }
-      h2 {
-        margin-top: 40px;
-        font-size: 1.4em;
-        color: #1e293b;
-      }
-      p {
-        font-size: 1em;
-        line-height: 1.6;
-        color: #334155;
-      }
-      ul {
-        text-align: left;
-        display: inline-block;
-        margin: 1em auto;
-        padding: 0;
-        list-style: none;
-      }
-      ul li::before {
-        content: "✔️ ";
-      }
-      a {
-        color: #007aff;
-        text-decoration: none;
-      }
-      a:hover {
-        text-decoration: underline;
-      }
-      .app-store {
-        margin: 30px 0;
-      }
-      .button {
-        display: inline-block;
-        background-color: #2563eb;
-        color: white;
-        padding: 10px 20px;
-        border-radius: 8px;
-        text-decoration: none;
-        font-weight: 600;
-      }
-      footer {
-        margin-top: 40px;
-        font-size: 0.85em;
-        color: #666;
-      }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; text-align: center; }
+        .hero-img { width: 120px; height: 120px; border-radius: 24px; margin-bottom: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+        h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        .tagline { font-size: 1.25rem; color: #555; margin-bottom: 30px; }
+        .features { text-align: left; background: #f9f9f9; padding: 30px; border-radius: 12px; margin: 30px 0; }
+        .footer-nav { margin-top: 40px; }
+        a { color: #0066cc; text-decoration: none; font-weight: bold; }
     </style>
-  </head>
-  <body>
-    <img src="app-icon.png" alt="MyHAC App Icon" class="app-icon" />
-    <h1>MyHAC Companion</h1>
-    <p>
-      Stay on top of your child’s grades — effortlessly. MyHAC Companion helps parents and students get instant, easy-to-read updates from the Home Access Center — no ads, no clutter, just your school data made simple.
-    </p>
+</head>
+<body>
 
-    <h2>📘 Simple, Fast, and Reliable</h2>
-    <p>MyHAC Companion connects securely to your school district’s Home Access Center (HAC) so you can:</p>
-    <ul>
-      <li>View grades and class averages instantly</li>
-      <li>Track missing or upcoming assignments</li>
-      <li>Check attendance and progress reports</li>
-      <li>Enjoy a clean, distraction-free interface designed for parents and students alike</li>
-    </ul>
-    <p><em>No login delays, no unnecessary taps — open the app and see what matters most.</em></p>
+    <a href="index.html"><img src="app-icon.png" alt="8-Bit Alarm App Icon" class="hero-img"></a>
+    <h1>8-Bit Alarm</h1>
+    <p class="tagline">The gamified anti-snooze alarm clock that forces your mind awake!</p>
 
-    <h2>🔒 Your Data Stays Yours</h2>
-    <p>
-      Your login credentials are stored <strong>only on your iPhone</strong>, protected by <strong>Apple Keychain</strong> encryption. MyHAC Companion never sends, shares, or stores your information on any external server.
-    </p>
-    <p><em>It simply refreshes your data each time you launch the app — nothing runs in the background.</em></p>
+    <div class="features">
+        <h2>Why 8-Bit Alarm?</h2>
+        <p>Tired of accidentally hitting snooze on standard alarm clocks and falling back asleep? 8-Bit Alarm gamifies your morning routine with nostalgic retro sound vibes and interactive swipe challenges that engage your brain right as you wake up.</p>
+        
+        <h3>Key Features:</h3>
+        <ul>
+            <li><strong>Easy Mode:</strong> Swipe in 3 random directions to turn off the alarm. Perfect for light sleepers.</li>
+            <li><strong>Hard Mode:</strong> Register 6 random directional swipes in under 4 seconds or the timer resets!</li>
+            <li><strong>Retro 8-Bit Aesthetic:</strong> Clean, pixel-art design inspired by classic arcade games.</li>
+            <li><strong>100% Offline &amp; Private:</strong> No backend, no accounts, and no data tracking. Works reliably anywhere.</li>
+        </ul>
+    </div>
 
-    <h2>❤️ Designed by a Parent, for Parents</h2>
-    <p>
-      Built with simplicity in mind — no ads, no tracking, no subscription fees. Just a fast, free app that makes checking grades easy for busy families.
-    </p>
+    <div class="footer-nav">
+        <a href="index.html">Support Hub</a> &nbsp;|&nbsp; 
+        <a href="privacy.html">Privacy Policy</a>
+    </div>
 
-    <a href="https://apps.apple.com/app/myhac-companion/id6753748904" target="_blank">
-    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" 
-       alt="Download on the App Store" width="160">
-    </a>
-    
-    <footer>
-      <p>
-        © 2025 MyHAC — Created by
-        <a
-          href="https://www.linkedin.com/in/shailendra-singh-596a7625/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Shailendra Singh
-        </a>
-      </p>
-      <p><a href="index.html">Support</a> | <a href="privacy.html">Privacy Policy</a></p>
-    </footer>
-  </body>
+</body>
 </html>
