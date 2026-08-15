@@ -3,35 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>8-Bit Alarm - Support & Privacy Policy</title>
+    <title>8-Bit Alarm - Support & Info Hub</title>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; max-width: 700px; margin: 40px auto; padding: 0 20px; color: #333; }
-        h1, h2 { color: #111; }
-        .card { background: #f9f9f9; padding: 20px; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 20px; }
-        a { color: #0066cc; }
+        :root { --primary-color: #0066cc; --bg-color: #f4f6f8; --card-bg: #ffffff; --text-color: #222222; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; background-color: var(--bg-color); color: var(--text-color); margin: 0; padding: 20px; }
+        .container { max-width: 800px; margin: 40px auto; }
+        .card { background: var(--card-bg); padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); margin-bottom: 24px; }
+        .header { text-align: center; }
+        .icon { width: 96px; height: 96px; border-radius: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.15); }
+        h1 { margin-top: 15px; margin-bottom: 5px; font-size: 2rem; }
+        p.subtitle { color: #666; font-size: 1.1rem; margin-top: 0; }
+        .nav-links { display: flex; gap: 15px; justify-content: center; margin-top: 20px; }
+        .btn { display: inline-block; padding: 10px 20px; background: var(--primary-color); color: #fff; text-decoration: none; border-radius: 6px; font-weight: 600; }
+        .btn-outline { background: transparent; color: var(--primary-color); border: 2px solid var(--primary-color); }
+        a { color: var(--primary-color); }
+        ul { padding-left: 20px; }
     </style>
 </head>
 <body>
 
-    <h1>8-Bit Alarm</h1>
-    <p>Gamified anti-snooze retro alarm clock for iOS.</p>
-
-    <div class="card">
-        <h2>App Support</h2>
-        <p>Need help or have questions about 8-Bit Alarm?</p>
-        <p>Email: <a href="mailto:singh2005@gmail.com">singh2005@gmail.com</a></p>
+<div class="container">
+    <div class="card header">
+        <img src="app-icon.png" alt="8-Bit Alarm Icon" class="icon">
+        <h1>8-Bit Alarm</h1>
+        <p class="subtitle">Gamified Anti-Snooze Retro Alarm Clock</p>
+        <div class="nav-links">
+            <a href="8-Bit-Alarm-landing.html" class="btn">App Features</a>
+            <a href="privacy.html" class="btn btn-outline">Privacy Policy</a>
+        </div>
     </div>
 
     <div class="card">
-        <h2>Privacy Policy</h2>
-        <p><strong>Effective Date:</strong> August 2026</p>
-        <p>8-Bit Alarm is built as a private, standalone local utility app.</p>
+        <h2>App Support & Assistance</h2>
+        <p>If you are experiencing any issues, have feature feedback, or need help with 8-Bit Alarm, please get in touch with support:</p>
         <ul>
-            <li><strong>No Data Collection:</strong> We do not collect, transmit, or store any personal data.</li>
-            <li><strong>Offline Functionality:</strong> All alarms, settings, and timers operate 100% locally on your device.</li>
-            <li><strong>No Analytics or Tracking:</strong> There are no third-party trackers, analytics, or advertising SDKs.</li>
+            <li><strong>Developer:</strong> Shailendra Singh</li>
+            <li><strong>Email Support:</strong> <a href="mailto:singh2005@gmail.com">singh2005@gmail.com</a></li>
+            <li><strong>Response Time:</strong> Within 24-48 business hours</li>
         </ul>
     </div>
+
+    <div class="card">
+        <h2>Frequently Asked Questions</h2>
+        <h3>Does the alarm sound in Airplane Mode or Offline?</h3>
+        <p>Yes. 8-Bit Alarm schedules notifications and audio locally on your device. No internet connection or cellular signal is required.</p>
+
+        <h3>How do I stop or snooze an active alarm?</h3>
+        <p>Depending on your configured setting (Easy or Hard), you must complete the random directional swipe gesture challenge on screen to turn off the alarm.</p>
+
+        <h3>How do I revoke permissions?</h3>
+        <p>You can manage or disable Notification permissions at any time via your device settings: <code>Settings &gt; 8-Bit Alarm &gt; Notifications</code>.</p>
+    </div>
+</div>
 
 </body>
 </html>
